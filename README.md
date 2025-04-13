@@ -1,8 +1,39 @@
-# TheAntsMind v0.1.0 – El despertar de la colonia Este es el inicio de un enjambre digital. TheAntsMind es un proyecto distribuido que combina IA, automatización y estructuras inspiradas en hormigas. En esta primera versión: - Definimos la estructura base del sistema. - Presentamos el manifiesto del proyecto. - Incluimos el primer módulo funcional: `hormigasais-seopack`, una herramienta SEO ligera y automatizable. ## ¿Por qué TheAntsMind? Inspirado en la inteligencia colectiva y el trabajo silencioso de las hormigas, este ecosistema busca desarrollar soluciones distribuidas para la nueva revolución digital. ## Cómo contribuir (https://github.com/TheAntsMind/v0.1.0-El-despertar-de-la-colonia/blob/main/core%2Fsetup.py0.1.0) 
+setup(
+    name="hormigasais-seopack",
+    version="0.1.0",
+    author="Cristhiam Quiñonez",
+    author_email="hola@hormigasais.com",
+    description="Paquete SEO ligero y automatizable de TheAntsMind, desarrollado por HormigasAIS.",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/TheAntsMind/TheAntsMind",  # Reemplazá con el link del repo final
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
+    install_requires=[
+        "requests",
+        "beautifulsoup4",
+    ],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Operating System :: OS Independent",
+        "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+        "License :: OSI Approved :: MIT License",
+    ],
+    python_requires=">=3.7",
+)
 
-• extract_meta() 
+
+
+
+
+
+Funciones iniciales sugeridas: 
+
+• get_title(url) 
+
+• extract_meta(url) 
 
 • check_keywords(url, keywords) 
 
-• generate_report(url)]
-] 
+• generate_report(url)
+
