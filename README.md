@@ -6,7 +6,8 @@ setup(
     description="Paquete SEO ligero y automatizable de TheAntsMind, desarrollado por HormigasAIS.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/TheAntsMind/TheAntsMind",  # Reemplazá con el link del repo final
+    url="https://join.slack.com/t/hormigas-ais/shared_invite/zt-33zssiv5x-WXs1_8mQ6_9m0O9g0VNgAA
+",  # Reemplazá con el link del repo final
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires=[
