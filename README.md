@@ -2,7 +2,7 @@ setup(
     name="hormigasais-seopack",
     version="0.1.0",
     author="Cristhiam Quiñonez",
-    author_email="hola@hormigasais.com",
+    author_email="chrisquinonezartista@outlook.com",
     description="Paquete SEO ligero y automatizable de TheAntsMind, desarrollado por HormigasAIS.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
